@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tahoma';
+}
+
+.auth__block {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__block form {
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 4px 2px #c1bcbc;
+}
+
+.auth__block form .form-group {
+  text-align: left;
+}
+
+.register {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.register_result {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.link_menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.link_menu li {
+  margin-right: 10px;
+}
+
+.block__table table {
+  overflow: scroll;
+}
+
+.menu_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+}
+
+.form_search {
+  display: flex;
+}
